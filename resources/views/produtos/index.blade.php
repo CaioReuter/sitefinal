@@ -5,7 +5,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
-    <h1>Produtos</h1>
+    <h1>Produtos Laravel</h1>
 
     <!-- Formulário para adicionar produto -->
     <form method="POST" action="/produtos">
