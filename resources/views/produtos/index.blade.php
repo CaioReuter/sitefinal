@@ -12,7 +12,7 @@
         @csrf
         <input type="text" name="nome" placeholder="Nome do Produto" required>
         <input type="number" step="0.01" name="preco" placeholder="Preço" required>
-        <button type="submit">Adicionar</button>
+        <button type="submit" class="btn btn-primary">Adicionar</button>
     </form>
 
     <hr>
