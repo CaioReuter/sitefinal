@@ -5,14 +5,14 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
-    <h1>Produtos Laravel</h1>
+    <h1>Produtos Teste</h1>
 
     <!-- Formulário para adicionar produto -->
     <form method="POST" action="/produtos">
         @csrf
         <input type="text" name="nome" placeholder="Nome do Produto" required>
         <input type="number" step="0.01" name="preco" placeholder="Preço" required>
-        <button type="submit" class="btn btn-primary">Adicionar</button>
+        <button type="submit">Adicionar</button>
     </form>
 
     <hr>
